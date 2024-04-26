@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food insecurity in the US</title>
+  <link rel="icon" href="img/icon.png">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" /> 
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#about">About food insecurity</a></li>
+      <li><a href="#causes">Causes</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#help">How to help</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+      <li><button id="motion-button">Reduce Motion</button></li>
+    </ul>
+  </div>
+  <!-- Header -->
+  <div id="section" class="header-container">
+    <div class="header-item">
+      <h1>Food insecurity in the US</h1>
+      <h3>44 million people, including 13 million children, in America did not <a id="links-in-text" href="https://www.npr.org/sections/health-shots/2023/10/26/1208760054/food-insecurity-families-struggle-hunger-poverty" target="_blank">get</a> enough food in 2022. Learn more about food insecurity in the US and how you can help.</h3>
+      <a href="https://give.feedingamerica.org/X4ahp5PoeEq_i1aii9HgAA2"target="_blank">
+        <button class="header-button" id="about" type="button">DONATE</button>
+      </a>
+      <a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">
+        <button class="header-button" type="button">FIND FOOD BANKS</button>
+      </a>
+    </div>
+    <div class="header-item">
+      <img id="header-img" src="img/box-with-food.jpeg"/>
+    </div>
+  </div>
+  <!--- About --->
+  <div id="section" class="about-container">
+    <div class="revealable-shorter about-item">
+      <h2>What is food insecurity?</h2>
+      <p>Although the US is one of the richest countries in the world, the hunger levels here remain high with 17 million households who experienced food insecurity in 2022. USDA defines food insecure households as those whose "access to adequate food for active, healthy living is limited by lack of money and other resources." There are many aspects contributing to food insecurity: inability to afford healthy food, the lack of access to grocery stores in the area, lack of time for cooking big meals, etc. Most of those are interconnected and can be traced back to economic inequality and systemic discrimination.</p>
+      <p>Food insecurity has detrimental effect on the health of people affected. It can lead to malnutrition, obesity, and conditions like Type 2 diabetes, high blood pressure, and heart disease. Research has shown that children who do not get enough nutritiotous food are more likely to struggle in school and have health problems later in life.</p>
+    </div>
+    <div class="revealable-shorter about-item">
+      <img src="img/trends4-map.png" />
+    </div>
+  </div>
+  
+<!--- Statistics --->
+  <div class="statistics-container" id="section">
+    <div class = "statistics-item revealable-fade">
+      <h2>Food insecurity in numbers</h2>
+    </div>
+    <div class = "statistics-item">
+      <img class="statistics-item revealable-right" src="img/trends1.png"/>
+      <img class="statistics-item revealable-left" src="img/trends3.png"/>
+    </div>
+    <div class = "statistics-item revealable-shorter">
+      <p class="important">
+    According to US Department of Agriculture, 12.8 percent of American households struggled to provide food for all household memebers at some point in 2022. 
+      </p>
+      <ul>
+        <li> 17.0 million households reported experiencing instances of food insecurity (USDA). </li>
+        <li> 6.8 million households experienced very low food insecurity, meaning that they had to skip meals at times due to the lack of food available (USDA). </li>
+        <li> Over 13 million children in the US were affected by food insecurity (USDA). </li>
+        <li id="causes"> 49 million people turned to food pantries, food banks, and community organizations for food assistance (Feeding America's Annual Report). </li>
+      </ul>
+    </div>
+  </div> 
+<!--- Causes --->
+  <div id="section" class="causes-container">
+    <div class="causes-item revealable-shorter">
+      <img src="img/Root-Causes-of-Hunger.png"/>
+    </div>
+    <div class="causes-item revealable-shorter">
+      <h2>Causes of food insecurity</h2>
+      <p>The roll-back of many of government-assistance programs from the pandemic era weakened the social safety net for many Americans. Another contributing factor is the rising prices of fresh produce and the declining relative price of junk food. The unaffordability of healthy food basically forces low-income families to buy high-calorie, nutritionally poor ultra-processed food that leads to obesity, malnutrition, and other weight-related conditions. Besides that, more than 10 million people in America live in food deserts: areas where no grocery stores with affordable healthy food are available within walking distance.
+      </p>
+    </div>
+    <div class="causes-item revealable-shorter">
+      <h4>The disproportionate impact of food insecurity on marginalized groups in the US</h4>
+      <ol>
+        <li>
+        In 2022, 1 in 5 Black and Latino people in the US experienced food insecurity. Systemic racism affects the access of <b>people of color </b> to employment, education, healthcare, housing, and other resources, which in turn affects their well-being, income, and ability to spend money on healthy food. The unemployment and low wages  contribute to food insecurity. Immigration-related ssues and language barriers can make it diffuiculty to find good-paid jobs and afford healthy food. Besides that, predominately Black and Native American communities can be a part of food deserts and do not have access to grocery shops with healthy and nutritionally-rich food in their area.
+        </li>
+        <li>
+          <b>Disability</b> status can also affect people's access to food. Disability can lead to reduced income due to job loss or low wages. It also increases household expenses as medical expenses on healthcare and adaptive equipment take up a significant part of earnings.
+        </li>
+        <li>
+          <b>Seniors</b> are also more likely to experience food insecurity. Chronic health conditions not only affect employment but also limit seniors' ability to travel and buy healthy food. Many seniors also do not have access to transportation, have fixed income, and do not have caregivers: all of those factors can lead to increased risj of food insecurity. 
+        </li>
+      </ol>
+    </div>
+    <div class="causes-item revealable-shorter">
+      <img src="img/trends2.png"/>
+    </div>
+    <div class="revealable-shorter" class="causes-item" id="impact">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IfTMARbcYaU?si=QcW0Flj_aGvvYPiq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+<!--- Impact --->
+  <div id="section">
+    <h2 id="center_headlines" class="revealable-shorter">The impact of food insecurity</h2>
+    <div class="impact-container">
+    <div class="impact-item revealable-shorter">
+      <p> The limited availability of nutritious food options plays a significant role in shaping health outcomes. When people do not have consistent access to healthy food, they are at a greater risk of developing chronic health issues such as obesity, Type 2 diabetes, hypertension, and cardiovascular disease. These conditions not only diminish quality of life but also contribute to a shorter lifespan. Moreover, the financial burden faced by food-insecure adults often forces them to make difficult choices between buying groceries or covering medical expenses, further exacerbating existing health problems and potentially leading to more severe complications over time.
+      </p>
+      <p>Individuals who struggle with food insecurity may also experience higher levels of stress and anxiety due to uncertainty about their next meal. This can contribute to the development of mood disorders like depression and anxiety, which, in turn, can affect their ability to work, care for their families, or engage in social activities. Ultimately, the inadequate access to nutritious food, chronic health conditions, and mental health challenges are interconnected, which highlights the need for comprehnsive solutions to hunger in the US.
+      </p>
+    </div>
+    <div class="impact-item revealable-shorter">
+      <img src="img/cycle1.png"/>
+    </div>
+    <div class="impact-item revealable-shorter">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/E6ZpkhPciaU?si=_BxkWywaCswdJnno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="impact-item revealable-shorter">
+      <h3>Food deserts and their impact on the residents' health</h3>
+      <p>Food deserts are geographic areas, where residents have limited access to affordable and nutritious food options. These areas are often characterized by a lack of easily accessible grocery stores, supermarkets, and fresh produce markets, making it challenging for residents to obtain healthy food. Instead, they may rely on convenience stores or fast food outlets, which often sell processed and unhealthy food  Food deserts disproportionately affect low-income communities and marginalized groups, exacerbating health disparities and contributing to higher rates of diet-related diseases such as obesity, diabetes, and heart disease. Addressing food deserts requires comprehensive solutions, including policy interventions, community initiatives, and investment in local food systems to ensure equitable access to fresh and nutritious food for all.
+      </p>
+    </div>
+    </div>
+  </div>
+  <!--- Help --->
+  <div id="help">
+    <h2 id="center_headlines" class="revealable">How to help combat food insecurity in the US</h2>
+    <div class="help-container">
+      <div class="help-item revealable">
+        <h3>Volunteer</h3>
+        <img src="img/volunteer.jpeg"/>
+        <p>Volunteering at food banks and soup kitchens can contibute to the fight against hunger. Volunteers can sort the grocery items, give out the meals, donate food, host your own food drive, or work in marketing or development in various non-profits.</p>
+      </div>
+      <div class="help-item revealable">
+        <h3>Donate</h3>
+        <img src="img/donate1.jpeg"/>
+        <p>Donating to food banks and organizations can help provide food to those in need. Even small donations can allow the non-profts to continue their work and increase their impact. You can find a list of food banks and organizations near you on Google and choose the one whose work appeals most to you.</p>
+      </div>
+      <div class="help-item revealable">
+        <h3>Advocate</h3>
+        <img src="img/advocacy1.jpg"/>
+        <p>Political activism can be a great way to join anti-hunger movement. You can advocate for federal anti-hunger programs such as expanded SNAP benefits and free lunch programs at schools. Educating others about food insecurity can also increase the awareness about the issue. You can learn more at <a id = "links-in-text" href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">Feeding America website</a>.</p>
+      </div>
+    </div>
+  </div>
+<!---Petition--->
+  <div class="petition revealable-shorter" id="section" id="petition">
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+        <div class="petition-para">
+          <p>
+            There are several federal programs thst aim to relieve food insecurity in the US. The three main ones are Supplemental Nutritional Assistance Program (SNAP, also known as food stamps), Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) and the National School Lunch Program (NSLP). One of the main legislations that regulate some of those food assistance programs is the Farm Bill. The Farm Bill was passed in 2018 and was extended through the 2024 fiscal year. Generally it is supposed to be renewed every five years by Congress under the jurisdiction of the Senate and House Committees on Agriculture, Nutrition, and Forestry. Besides helping farmers, it also provides funding to SNAP, The Emergency Food Assistance Program, and the Commodity Food Supplemental program. Sign this petition to express your support for the Farm Bill and urge lawmakers to include more extensive food assistance programs in the next Farm Bill.
+          </p>
+        </div>
+
+        <div class="signatures">
+          <p>🖊️ Cathy from Chicago, Illinois supports this cause.</p>
+          <p>🖊️ James from Memphis, Tennessee supports this cause.</p>
+          <p>🖊️ Anna from Scarsdale, New York supports this cause.</p>
+          <p id=counter>🖊️ 3 people have signed this petition and support this cause. </p>
+        </div>
+
+      </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+        <label for="name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+        <label for="name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <label for="hometown">Hometown:</label>
+        <input type="text" id="hometown" name="hometown">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="checkbox">Do you want your name on the website?</label>
+        <input type="checkbox" id="checkbox">
+      
+    </form>
+
+     <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+
+  </div>
+  <!-- Modal -->
+  <div class="modal" id="thanks-modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">
+         Thank you! 
+        </p>
+        <button id="close-modal-button">Close</button>
+      </div>
+      <img src="img/foodbank.jpeg"/>
+    </div>
+
+  </div>
+<!--- News --->
+  <div id="section" class="resources revealable-shorter">
+    <h2>Resources</h2>
+    <a
+      href="https://www.feedingamerica.org/hunger-in-america" target="_blank">
+      <article>
+          <h4>Feeding America: Hunger in America</h4>
+          <p>Everyone needs nutritious food to thrive. And, while people are working hard to provide for themselves and their families, approximately 49 million people—that's one in six people in the U.S.—still relied on food assistance from charities like Feeding America in 2022.</p>
+      </article>
+    </a>
+    <a
+      href="https://www.npr.org/sections/health-shots/2023/10/26/1208760054/food-insecurity-families-struggle-hunger-poverty" target="_blank">
+      <article>
+          <h4>NPR: Millions of families in the U.S. experience food insecurity, report finds</h4>
+          <p>The report found that 44.2 million people lived in households that had difficulty getting enough food to feed everyone in 2022, up from 33.8 million people the year prior. Those families include more than 13 million children experiencing food insecurity, a jump of nearly 45 percent from 2021.</p>
+      </article>
+    </a>
+    <a href="https://www.forbes.com/sites/daniellenierenberg/2023/11/03/food-insecurity-is-getting-worse-what-can-we-do-about-it/" target="_blank">
+      <article>
+          <h4>Forbes: Food Insecurity Is Getting Worse. What Can We Do About It?</h4>
+          <p>Food insecurity is getting worse right now because, broadly speaking, we have not succeeded in turning short-term fixes into workable, functional long-term policies. We need serious, sustainable, justice-driven transformations to the ways we think about feeding our communities.</p>
+      </article>
+    </a>
+  </div>
+<!--- Footer --->
+  <div class="footer">
+  <a href="https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance/" target="_blank">
+  <h4>Learn more</h4>
+  </a>
+  <a href="https://www.feedingamerica.org/our-work/hunger-relief-programs" target="_blank">
+    <h4>Get assistance</h4>
+  </a>
+  </div>
+
+  <script src="index.js"></script>
+  </body>
+</html>
